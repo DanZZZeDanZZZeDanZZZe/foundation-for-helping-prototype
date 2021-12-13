@@ -1,7 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  height: 100vh;
+
+  --font-color-white: rgb(248, 248, 248);
+  --font-color-black: rgb(41, 40, 40);
+  --font-color-grey: rgb(80, 80, 80);
+
+  --color1: #ffd302;
+  --color2: #545dbf;
+  --color3: #ff803b;
+  --color4: #a6e5e3;
+  --color5: #68b8bc;
+  --color6: #f493a9;
+  --color7: #d5f2fb;
+
+  --border-radius: 15px;
+  --side-padding: 3rem;
+  --side-padding-mobile: 1rem;
+
+  --shadow-1: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 body {
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -app le-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
